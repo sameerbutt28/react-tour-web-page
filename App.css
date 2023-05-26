@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  font-size: 40px;
+  background-color: rgb(158, 12, 12);
+  color: white;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+}
+.main{
+  /* background: grey; */
+  height: auto;
+  width: 70vw;
+  margin-left: 14vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10vh;
+  padding: 3vh;
+  margin-bottom: 10vh;
+
+
+}
+.introcontainer{
+  margin-left: 4vw;
+}
+.imgcontainer img{
+  margin-left: 4vw;
+height: auto;
+width: 15vw;
+}
+.stats  {
+  display: flex;
+  flex-direction: row;
+}
+.stats > p {
+  margin-left: 2px;
+}
+.starimg{
+  height: 24px;
+  width: 23px;
+}
+.location{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(96, 95, 95);
+  margin-left: 20px;
+}
+.title{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-top: 10px;
+
+}
+.date{
+  font-size: 22px;
+  color: rgb(96, 95, 95);
+  margin-top: 5px;
+
+
+}
+.description{
+  font-size: 20px;
+  margin-top: 5px;
+
+}
+.rating{
+  font-size: 20px; 
+   font-weight: bold;
+
+}
+.reviews{
+  font-size: 20px; 
+   font-weight: bold;
+
+}
+.stats{
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 4px;
+}
